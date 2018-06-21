@@ -1,0 +1,22 @@
+h1 {
+    color: blue;
+    background-color: yellow;
+}
+
+div {
+    height: 600px;
+    width: 350px;
+    margin: 100px auto; 
+
+/*  background-color: red;
+    background-image: url('../images/copa.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+*/
+    background: red url('../images/copa.jpg') no-repeat center ;
+
+}
+
+a {
+    display: block;
+}

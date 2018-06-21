@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-size: 20px; /* Tamanho da fonte*/
+    font-weight: bold; /* Fonte em negrito */
+    font-family: 'Arial'; /* Tipo de fonte */
+    border: 5px solid #ff0000; /* Formatar borda (tamanho, tipo, cor) */
+
+    /* Outra forma de formatar borda
+    border-width: 5px;
+    border-style: solid;
+    border-color: #ff0000;
+    */
+
+    border-right-width: 15px; /* Largura da borda */
+    border-bottom-color: yellow; /* alterar cor de apenas 1 borda */ 
+
+    border-left-color: green;
+
+    border-top-width: 1px;
+
+    /* Alterar tipos de bordas */
+    border-top-style: dotted;
+    border-right-style: dashed;
+    border-bottom-style: ridge;
+    border-left-style: double;
+
+    margin: 1px 5px 10px 15px; /* Cima(TOP),Direira(RIGHT),Baixo(BOTTOM),Esquerda(LEFT) */
+
+    padding: 10px;
+
+    width: 150px;
+
+    height: 50px;
+
+
+}
+
+p.textBlue{ /* . <- Seletor do class */
+    color: blue
+}
+
+p.textGreen{
+    color: green
+}
+
+#titulo{ /* # <- Seletor o id  */
+    color: orange;
+    text-align: center;
+}
+
+table{
+    border-collapse: collapse; /* Unir */
+    
+}
+
+td{
+    border: 1px solid black;
+}
+

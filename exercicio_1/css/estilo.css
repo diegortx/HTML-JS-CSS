@@ -1,13 +1,22 @@
-h1 {
-    color: gray;
-    text-align: center;
+h1{
+    color:gray;
 }
 
-img {
-    display: block;
+#titulo{
+    margin: 5px 10px;
+    background-position: center;
+}
+
+#imagem{
+
+    height: 210px;
+    width: 400px;
     margin: 10px auto;
+    background: url('../images/spacex.jpg') no-repeat center;
+
 }
 
-p {
-    font-size: 20px;
+#texto{
+    margin: 5px 10px;
+    font-size: 19px;
 }

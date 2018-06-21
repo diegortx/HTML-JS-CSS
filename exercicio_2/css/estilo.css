@@ -1,27 +1,16 @@
-html {
-    height: 100%;
+table{
+    border-collapse: collapse; /* Unir */
+    
+}
+th{
+    border: 1px solid rgb(252, 4, 4);
 }
 
-body {
-    background-image: url('../images/prisma.jpg');
-    background-repeat: no-repeat;
-    background-position: bottom right;
-
+td{
+    border: 1px solid rgb(252, 4, 4);
 }
 
 h1 {
     color: red;
-}
-
-p {
-    border-bottom: 5px solid red;
-}
-
-table {
-    border-collapse: collapse;
-}
-
-th, td {
-    border: 2px solid red;
-    padding: 5px;
+    font-weight: bold;
 }

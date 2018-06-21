@@ -1,19 +1,23 @@
 start();
 
-function start() {
-    var btnTest = document.getElementById('btn_test');
-    if (btnTest != null) {
-        console.log(btnTest.value);
-        console.log(btnTest);
+function start(){
+
+    var btnTest = document.getElementById('btn_test')
+    if(btnTest != null ) {
+    console.log(btnTest)
+    console.log(btnTest.value)
+    btnTest.value = 'Alterado via JS'
     }
 
-    var inputA = document.getElementById('number_a');
-    inputA.value = 25;
+    var numberA = document.getElementById('number_a')
+    numberA.value = '1234'
     listenerButton(btnTest);
+
 }
 
-function listenerButton(btnTest) {
-    btnTest.onclick = function() {
-        console.log('DEU CERTO!!!');
-    };
+function listenerButton(btnTest){
+    btnTest.onclick = function(){
+        console.log('Ok')
+    }
 }
+
